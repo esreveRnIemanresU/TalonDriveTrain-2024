@@ -34,7 +34,6 @@ public class DriveTrain extends SubsystemBase {
     // Swap the next two lines for filtered/raw input
     m_drive.arcadeDrive(-m_controller.getLeftY(), -m_controller.getRightX(), squaredInput);
     //m_drive.arcadeDrive(OI.deadZone(f_fwd), OI.deadZone(f_rot), squaredInput);
-        
     }
 
   @Override
